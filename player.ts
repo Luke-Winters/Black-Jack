@@ -1,4 +1,6 @@
-class Player {
+import { Card } from "./card";
+
+export class Player {
     constructor(
         public name: string,
         private balance: number,

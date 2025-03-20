@@ -1,4 +1,6 @@
-class Deck {
+import { Card } from "./card";
+
+export class Deck {
     private cards: Card[] = [];
     
     createDeck() {
